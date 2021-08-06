@@ -1,0 +1,61 @@
+body {
+    background: rgba(150,21,3,0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100%
+
+}
+.header
+{
+    background: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuadrado
+{
+    border: 2px solid black;
+    width: 60%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Triangulo
+{
+    border: 2px solid black;
+    width: 60%;
+    margin: 2px;
+}
+.Triangulo1
+{
+    border: 2px solid black;
+    width: 60%;
+    margin: 2px;
+}
+.circulo
+{
+    border: 2px solid black;
+    width: 60%;
+    margin: 2px;
+}
+.footer
+{
+    background: coral;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
