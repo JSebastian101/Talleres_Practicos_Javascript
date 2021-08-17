@@ -1,0 +1,10 @@
+Ejercicio precios y descuentos
+------------------------------
+Nos reportan algunos clientes que tiene descuento pero no saben 
+cuanto van a terminar pagando. 
+Crear un programa que diga cuanto valen los productos luego de aplicarles un
+descuento. 
+[P * (100 - D)] / 100
+
+Notas: Existe un principio llamo Single Responsibility: implica que cada línea tiene
+únicamente una función o tarea, de modo que sea facil tanto de leer y manejar al momento de cambiar el codigo.

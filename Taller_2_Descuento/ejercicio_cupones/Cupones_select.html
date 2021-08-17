@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calcula el precio a pagar de tus productos </h1>
+        <p>Este es el segundo taller del curso Práctico de JS</p>
+    </header>
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input type="number" id="InputPrice">
+
+            <label for="selectDiscount"> Selecciona tu cupón</label>
+            <select id="selectDiscount">
+                <option value="10">10% primera Compra</option>
+                <option value="25">25% Navideño (solo en diciembre)</option>
+                <option value="50">50% Solo para nuestros clientes preferenciales</option>
+            </select>
+            <button type="button" onclick="clickDiscount()">
+                Calcular el precio de tus productos
+            </button>
+            <p id="ResultP"></p>
+        </form>
+    </section>
+    <script src="./cupones_select.js"></script>
+</body>
+</html>
