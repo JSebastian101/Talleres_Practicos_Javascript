@@ -1,6 +1,6 @@
 # Curso-practico-Javascript
 
-..
+Este repositorio cuenta con una serie de talleres practicos, que tienen por objetivo trabajar mis habilidades técnicas con JS
 
 ## Taller #1 figuras geométricas
 
